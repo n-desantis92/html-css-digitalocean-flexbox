@@ -181,6 +181,19 @@ p {
 #sponsor a {
   text-decoration: none;
 }
+
+.container-sponsor {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.loghi-sponsor {
+  margin: 0 10px;
+
+}
 /* /sponsor */
 /* main_top */
 .main_header {
@@ -525,12 +538,27 @@ footer li a {
   font-size: 16px;
   font-weight: 500;
 }
+@media screen and (max-width: 992px) {
+
+  .container-sponsor {
+  }
+  .loghi-sponsor {
+    flex-basis: calc(50% - 20px);
+  }
+  .loghi-sponsor img {
+
+  }
+}
 
 /* /shark */
 @media screen and (max-width: 768px) {
   .details {
     height: 160px;
     padding-left: 55px;
+  }
+
+  .loghi-sponsor {
+    flex-basis: 100%;
   }
 
   .shark {
