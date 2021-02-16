@@ -575,6 +575,10 @@ footer li a {
     flex-basis: 100%;
   }
 
+  .configuration {
+    flex-direction: column;
+  }
+
   .configuration nav {
     display: block;
   }
